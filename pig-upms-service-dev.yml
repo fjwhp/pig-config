@@ -20,7 +20,7 @@ sharding:
     defaultDataSourceName:
       type: com.zaxxer.hikari.HikariDataSource
       driver-class-name: com.mysql.jdbc.Driver
-      username: whp
+      username: root
       password: 1qazwsx
       jdbc-url: jdbc:mysql://47.107.148.15:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
     datasource:
@@ -28,7 +28,7 @@ sharding:
       ds:
         type: com.zaxxer.hikari.HikariDataSource
         driver-class-name: com.mysql.jdbc.Driver
-        username: whp
+        username: root
         password: 1qazwsx
         jdbc-url: jdbc:mysql://47.107.148.15:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
     config:
