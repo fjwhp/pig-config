@@ -30,5 +30,5 @@ notifier:
 eureka:
   instance:
     metadata-map:
-      user.name: "user"         #These two are needed so that the server
-      user.password: "password" #can access the protected client endpoints
+      user.name: "whp"         #These two are needed so that the server
+      user.password: "whp" #can access the protected client endpoints
